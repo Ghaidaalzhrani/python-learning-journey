@@ -54,9 +54,61 @@ tuple1 = (6 , 7 , 8 , 9 , 10)
 t = slice(0 , 5 , 3 )
 print(tuple1[t])
 
+#index() function (Searching for an element in a sequence)
+text = "Im a future engineer"
+the_list = [10 , 9 , 8 , 7 , 6 , 5]
+the_tuple = (4 , 3 ,2 , 1 ,0)
 
-# index() Function
-# len() Function
+print(text.index("engineer"))
+print(the_list.index(7))
+print(the_tuple.index(2))
+
+
+# len() Function()
+text1 = "Im a future engineer"
+the_list1 = [10 , 9 , 8 , 7 , 6 , 5]
+the_tuple2 = (4 , 3 ,2 , 1 ,0)
+
+print(len(text1))
+print(len(the_list1 ))
+print(len(the_tuple2))
+
+
 # count() Function
+string1 = "Python is a powerful programming language, and learning Python can make programming easier,faster, and more enjoyable. I love Python because Python helps me solve problems and build intelligent applications with Python."
+l = [6,6,6,6,6,6,7,7,7,7,7,7,7,7]
+t = (0,5,9,8,7,5)
+
+print(string1.count("Python"))
+print(l.count(6))
+print(t.count(5))
+
+
 # in Operator
+text3 = "Artificial Intelligence helps engineers analyze data, build machine learning models, and develop intelligent systems using Python and cloud technologies."
+print("Intelligence" in text3)
+print("machine learning" in text3)
+print("Data" in text3)
+
+models = ("FNN", "CNN", "RNN", "LSTM")
+print("CNN" in models)
+print("ANN" in models)
+
+neurons = [16, 32, 64, 128, 256, 512]
+print(512 in neurons)
+print(1024 in neurons)
+
+
 # Concatenation and Repetition
+#NOTE : Add a space at the beginning of the text to prevent the texts from merging.
+
+ftrst_name = " Ghaida"
+second_name = " Alzahrani"
+print(ftrst_name+second_name )
+#Repetition
+print(ftrst_name*5)
+
+l1= [1 , 2 , 3 , 4 , 5 ,]
+l2 =[ 6 , 7 , 8 , 9 ]
+
+print(l1+l2)
